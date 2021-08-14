@@ -1,0 +1,21 @@
+li {
+    font-size: large;
+    margin-bottom: 15px;
+    width : 96%;
+}
+
+.timestamp {
+    color: gray;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.trash {
+    color: gray;
+    float: right;
+    transition: color 200ms ease;
+}
+
+.trash:hover {
+    color: hsl(0, 70%, 60%);
+}

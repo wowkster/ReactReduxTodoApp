@@ -1,0 +1,30 @@
+footer {
+    margin-top: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer button {
+    height: fit-content;
+    padding: 10px;
+    font-size: large;
+    color: white;
+    background: #8f4be7;
+    border: none;
+    border-radius: 4px;
+}
+
+footer button:hover {
+    background: hsl(266, 76%, 64%);
+    transform: scale(1.01);
+}
+
+footer button:active {
+    transform: scale(0.99);
+}
